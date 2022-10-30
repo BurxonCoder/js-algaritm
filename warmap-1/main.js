@@ -130,7 +130,7 @@ console.log(diff21(19));
 //     }
 // }
 
-// 2 
+// 2 Sposob
 
 function porrotTrouble (talking , hour){
     return (talking === true && hour > 6 || hour < 7) ? true : false;
