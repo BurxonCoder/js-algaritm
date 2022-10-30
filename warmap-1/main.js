@@ -67,3 +67,29 @@ function monkayTrouble (aSmile , bSmile){
 }
 
 console.log(monkayTrouble(true , true));
+
+
+
+// sumDouble 
+
+//1 Sposob 
+
+
+// function sumDouble (a  , b){
+//     if(a === b){
+//         return (a + b) * 2
+
+//     }else{
+//         return a + b
+//     }
+// }
+
+// console.log(sumDouble(2 , 2));
+
+// 2 Sposob 
+
+function sumDouble (a , b ){
+    return(a === b ) ? (a + b) * 2 : a + b;
+}
+
+console.log(sumDouble( 2 , 2));
