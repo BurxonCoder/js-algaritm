@@ -30,3 +30,40 @@ console.log(sleepIn( false , true));
 //     }
 // }
 // console.log(sleepIn(true , false ));
+
+
+// monkayTrouble 
+
+// 1 Sposob 
+
+// function monkayTrouble (aSmile , bSmile ){
+//     if(aSmile === true && bSmile === true || aSmile === false && bSmile === false){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+
+
+
+//2 Sposob 
+
+// function monkayTrouble (aSmile , bSmile){
+//     if(!aSmile && !bSmile || aSmile === true && bSmile === true){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+
+
+
+// 3 Sposob 
+
+function monkayTrouble (aSmile , bSmile){
+    return(aSmile === true && bSmile === true || !aSmile && !bSmile ) ? true :false
+}
+
+console.log(monkayTrouble(true , true));
