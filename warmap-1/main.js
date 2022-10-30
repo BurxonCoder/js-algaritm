@@ -116,3 +116,25 @@ function diff21 ( n ){
 }
 console.log(diff21(19));
 
+
+// porrotTrouble 
+
+// 1 Sposob 
+
+
+// function porrotTrouble (talking , hour ){
+//     if(talking === true && hour > 6 || hour < 7){
+//         return true;
+//     } else{
+//         return false;
+//     }
+// }
+
+// 2 
+
+function porrotTrouble (talking , hour){
+    return (talking === true && hour > 6 || hour < 7) ? true : false;
+}
+
+
+console.log(porrotTrouble(true , 6));
