@@ -93,3 +93,26 @@ function sumDouble (a , b ){
 }
 
 console.log(sumDouble( 2 , 2));
+
+
+
+// diff21
+
+// 1 Sposob 
+
+// function diff21 ( n ){
+//     if(n <= 21){
+// return 21 - n
+//     }else{
+//         return (n - 21) * 2
+//     }
+// }
+
+
+// 2 Sposob 
+
+function diff21 ( n ){
+   return(n <= 21 ) ? 21 - n : n - 21 * 2
+}
+console.log(diff21(19));
+
