@@ -138,3 +138,28 @@ function porrotTrouble (talking , hour){
 
 
 console.log(porrotTrouble(true , 6));
+
+
+// makes10
+
+//1 Sposob 
+
+
+// Больше/меньше: a > b, a < b.
+// function makes10 (a , b){
+//     if(a === 10 || b === 10 || a+b === 10){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+
+// 2 Sposob 
+
+function makes10 (a , b ){
+    return(a === 10 || b === 10 || a + b === 10) ? true : false;
+}
+
+
+console.log(makes10(9 , 9));
