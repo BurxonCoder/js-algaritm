@@ -163,3 +163,19 @@ function makes10 (a , b ){
 
 
 console.log(makes10(9 , 9));
+
+
+
+//nearHundred
+
+//1 Sposob
+
+function nearHundred (n) {
+    let resaul1 = Math.abs(100 - n)
+    let resaul2 = Math.abs(200 - n)
+    return resaul1 <= 10 || resaul2 <=10 ;
+}
+
+console.log(nearHundred(89));
+
+
