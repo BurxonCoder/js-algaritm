@@ -178,4 +178,25 @@ function nearHundred (n) {
 
 console.log(nearHundred(89));
 
+// posNeg 
 
+// 1 Sposob 
+
+// function  posNeg (a , b , negativ){
+//     if(a >= b || b <= a || negativ === false ){
+//         return true;
+
+//     }else{
+//         return false;
+//     }
+// }
+
+
+// 2 Sposob 
+
+function posNeg (a , b , negativ){
+    return(a >= b || b <= a || negativ === false) ? true : false;
+}
+
+
+console.log(posNeg(-4, -5, true));
