@@ -192,6 +192,10 @@ console.log(nearHundred(89));
 // }
 
 
+
+
+
+
 // 2 Sposob 
 
 function posNeg (a , b , negativ){
@@ -200,3 +204,29 @@ function posNeg (a , b , negativ){
 
 
 console.log(posNeg(-4, -5, true));
+
+
+//notString 
+
+// 1 Sposob 
+
+
+
+// function notString (str){
+//     if(str.slice(0 , 3) === "not "){
+//         return str
+
+//     }else{
+//         return "not " + str
+//     }
+// }
+
+
+
+//2 Sposob
+
+function notString (str){
+    return(str.slice(0,3) === "not ") ? str : "not " + str
+}
+
+console.log(notString("bad"));
