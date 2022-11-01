@@ -305,3 +305,20 @@ function or35 (n){
 
 } 
 console.log(or35(8));
+
+
+//front22
+
+//front22("kitten") → "kikittenki"
+// front22("Ha") → "HaHaHa"
+// front22("abc") → "ababcab"
+
+
+function front22 (str){
+    if(str.length > 1 ){
+        return str.slice(0 , 2) + str + str.slice(0 , 2)
+
+    }
+}
+
+console.log(front22("abc"));
