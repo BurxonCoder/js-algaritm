@@ -293,3 +293,15 @@ function backAround(str){
 }
 
 console.log(backAround("Hello"));
+
+// or35
+
+//or35(3) → true
+// or35(10) → true
+// or35(8) → false
+
+function or35 (n){
+    return (n % 3 === 0 ) || (n % 5 === 0);
+
+} 
+console.log(or35(8));
