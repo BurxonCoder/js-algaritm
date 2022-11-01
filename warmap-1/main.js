@@ -1,6 +1,6 @@
 // sleepIn 
 
-//1 Sposob
+//3 Sposob
 
 // function sleepIn (weekday , vacation){
 //     if(!weekday && !vacation || !weekday && vacation === true) {
@@ -263,3 +263,17 @@ console.log(missingChar("kitten", 4));
 
  console.log(frontBack("code"));
 
+
+
+ // front3
+
+//  front3("Java") → "JavJavJav"
+// front3("Chocolate") → "ChoChoCho"
+// front3("abc") → "abcabcabc"
+
+
+function front3 (str){
+    return str.slice(0 , 3) + str.slice(0 , 3) + str.slice(0 , 3)
+}
+
+console.log(front3("abc"));
