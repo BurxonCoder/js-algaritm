@@ -244,3 +244,22 @@ function missingChar (str , n){
     return str1 + str2
 }
 console.log(missingChar("kitten", 4));
+
+
+
+//frontBack
+
+// frontBack("code") → "eodc"
+// frontBack("a") → "a"
+// frontBack("ab") → "ba"
+
+
+
+
+
+ function  frontBack (str){
+    return str.slice(-1) + str.slice(1 , -1) + str.slice(0 , 1)
+ }
+
+ console.log(frontBack("code"));
+
