@@ -437,3 +437,19 @@ function loneTean (a , b) {
  }
  
  console.log(loneTean( 13 , 13 ));
+ 
+ function string (){
+    let string = "How can mirrors be real if our eyes aren't real";
+    let splits  = string.split(" ");
+    let stringItog = "";
+    
+    for (let i = 0 ; i <splits.length; i++){
+        let Name = splits [i];
+        let First = Name.substring (0 , 1).toUpperCase();
+        let Leftowers = Name.substring(1, Name.length)
+        stringItog += First + Leftowers + " ";
+        }
+        
+        console.log(stringItog);
+ }
+ string();
