@@ -292,7 +292,7 @@ function backAround(str){
     }
 }
 
-console.log(backAround("Hello"));
+console.log(backAround("cat"));
 
 // or35
 
@@ -322,3 +322,54 @@ function front22 (str){
 }
 
 console.log(front22("abc"));
+
+
+//startHi
+
+// startHi("hi there") → true
+// startHi("hi") → true
+// startHi("hello hi") → false
+
+
+function startHi (str){
+    if(str.startsWith("hi")){
+
+        return true
+        
+    }else{
+return false
+        }
+    }
+
+
+    console.log(startHi("hi there"));
+    
+    
+    //iceHot 
+    
+    
+// icyHot(120, -1) → true
+// icyHot(-1, 120) → true
+// icyHot(2, 120) → false
+
+//1 Sposob
+
+    // function iceHot (temp1 , temp2) {
+    //     if (temp1 === temp2 && temp1 > -1 && temp2 < -1 || temp1 > 2 && temp2 < 2 ) {
+    //         return true
+            
+    //     }else{
+    //         return false
+    //     }
+        
+    // }
+    
+    
+    
+    //2 Sposob 
+    
+    function iceHot (temp1 , temp0) {  
+        return(temp1 === temp2 && temp1 > -1 && temp2 < -1 || temp1 > 2 && temp2 < 2) ? true : false;
+    }
+    
+    console.log(iceHot(120 , -1));
