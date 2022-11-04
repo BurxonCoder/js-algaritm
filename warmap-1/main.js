@@ -364,6 +364,22 @@ return false
         
     }
     
+    console.log(iceHot(120 , 2));
+    
+    //in1020
+    
+// in1020(12, 99) → true
+// in1020(21, 12) → true
+// in1020(8, 99) → false
+
+
+// function in1020(a , b) {
+//     if () {
+        
+//     }
+// }
+
+
     
     
 
