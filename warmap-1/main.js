@@ -438,6 +438,10 @@ function loneTean (a , b) {
  
  console.log(loneTean( 13 , 13 ));
  
+ 
+ //Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+// Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
+ 
  function string (){
     let string = "How can mirrors be real if our eyes aren't real";
     let splits  = string.split(" ");
