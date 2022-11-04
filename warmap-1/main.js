@@ -354,22 +354,16 @@ return false
 
 //1 Sposob
 
-    // function iceHot (temp1 , temp2) {
-    //     if (temp1 === temp2 && temp1 > -1 && temp2 < -1 || temp1 > 2 && temp2 < 2 ) {
-    //         return true
+    function iceHot (temp1 , temp2) {
+        if (temp1 === temp2 && temp1 > -1 && temp2 < -1 || temp1 > 2 && temp2 < 2 ) {
+            return true
             
-    //     }else{
-    //         return false
-    //     }
+        }else{
+            return false
+        }
         
-    // }
-    
-    
-    
-    //2 Sposob 
-    
-    function iceHot (temp1 , temp0) {  
-        return(temp1 === temp2 && temp1 > -1 && temp2 < -1 || temp1 > 2 && temp2 < 2) ? true : false;
     }
     
-    console.log(iceHot(120 , -1));
+    
+    
+
