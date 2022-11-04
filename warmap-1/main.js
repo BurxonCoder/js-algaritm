@@ -382,6 +382,8 @@ return false
 // }
 
 
+//2 Sposob
+
 function in1020 (a , b) {
     return (a >= 10 && b >= 20 || a >= 10 && b >= 20) ? true : false
   }
@@ -391,4 +393,47 @@ console.log(in1020(8 , 99));
     
 
     
+// hasTeen
 
+// hasTeen(13, 20, 10) → true
+// hasTeen(20, 19, 10) → true
+// hasTeen(20, 10, 13) → true
+
+
+//1 Sposob
+
+// function hasTeen (a , b , c) { 
+//     if ((a >= 13 && a <= 19 )||(b >= 13 && b <= 19 ) || (c >= 13 && c <= 19)) {
+//         return true
+//     }else{
+//         return false
+//     }
+//  }
+
+ 
+ 
+ //2 Sposob
+ 
+ function hasTeen (a , b , c) {
+    return ((a >= 13 && a <= 19) || (b >= 13 && b <= 19) || (c >= 13 && c <= 19)) ? true : false
+   }
+   
+   console.log(hasTeen(13 , 20 , 10));
+   
+   // loneTean 
+   
+//    loneTeen(13, 99) → true
+//    loneTeen(21, 19) → true
+//    loneTeen(13, 13) → false
+
+function loneTean (a , b) { 
+    if (((a >= 13 && b < 13) || ( a > 19 && b < 19 ) || (a < 13 && b >= 13) || (a >19 && b <=19))) {
+        
+        return true
+        
+    }else{
+        return false
+    }
+ }
+ 
+ console.log(loneTean( 13 , 13 ));
