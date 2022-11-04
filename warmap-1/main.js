@@ -373,15 +373,22 @@ return false
 // in1020(8, 99) → false
 
 
-function in1020(a , b) {
-    if (a >= 10 && b <= 20 || a >= 10 && b >=20 ) {
-        return true
-    }else{
-        return false
-    }
-}
+// function in1020(a , b) {
+//     if (a >= 10 && b <= 20 || a >= 10 && b >=20 ) {
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+
+
+function in1020 (a , b) {
+    return (a >= 10 && b >= 20 || a >= 10 && b >= 20) ? true : false
+  }
+
 
 console.log(in1020(8 , 99));
     
+
     
 
