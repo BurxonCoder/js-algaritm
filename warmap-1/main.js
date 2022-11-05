@@ -484,3 +484,20 @@ function delDel (str) {
 //     }
 // }
 console.log(delDel("adedbc"));
+
+
+//mixStart
+
+// mixStart("mix snacks") → true
+// mixStart("pix snacks") → true
+// mixStart("piz snacks") → false
+
+function mixStart(str){
+    if(str.startsWith("mix" && "pix" )){
+        return str.slice(0, 1) + str.slice(4) ? true : false ;
+    } else {
+return false
+    }
+}
+
+console.log(mixStart("piz snacks"));
