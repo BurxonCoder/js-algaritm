@@ -442,18 +442,45 @@ function loneTean (a , b) {
  //Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 // Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
  
- function string (){
-    let string = "How can mirrors be real if our eyes aren't real";
-    let splits  = string.split(" ");
-    let stringItog = "";
+//  function string (){
+//     let string = "How can mirrors be real if our eyes aren't real";
+//     let splits  = string.split(" ");
+//     let stringItog = "";
     
-    for (let i = 0 ; i <splits.length; i++){
-        let Name = splits [i];
-        let First = Name.substring (0 , 1).toUpperCase();
-        let Leftowers = Name.substring(1, Name.length)
-        stringItog += First + Leftowers + " ";
-        }
+//     for (let i = 0 ; i <splits.length; i++){
+//         let str1 = splits [i];
+//         let str2 = str1.substring (0 , 1).toUpperCase();
+//         let Leftowers = str1.substring(1, str1.length)
+//         stringItog += str2 + Leftowers + " ";
+//         }
         
-        console.log(stringItog);
- }
- string();
+//         console.log(stringItog);
+//  }
+//  string();
+ 
+//deDel
+
+// delDel("adelbc") → "abc"
+// delDel("adelHello") → "aHello"
+// delDel("adedbc") → "adedbc"
+
+// 1 Sposob
+
+function delDel (str) {
+    if (str.slice(1 , 4) === "del") {
+        return str.slice(0 , 1) + str.slice(4)
+         }else{
+            return str
+         }
+  }
+
+  //2 Sposob
+  
+// function delDel(str){
+//     if(str.startsWith("del" , 1)){
+//         return str.slice(0, 1) + str.slice(4);
+//     } else {
+//         return str;
+//     }
+// }
+console.log(delDel("adedbc"));
