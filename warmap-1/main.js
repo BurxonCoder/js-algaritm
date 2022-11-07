@@ -532,4 +532,12 @@ console.log(startOz("ozymandias"));
 
 
 
+function intMax(n, _max = -Infinity) { 
+    // -Infinity не хорошо, но мне было лень искать более хорошое решение:)
+ const str = (n + '');
+ return str.length > 1 ?
+     intMax(str.slice(1), Math.max(str[0], _max)) :
+     +Math.max(str[0], _max);
+}
 
+console.log(intMax(123));
