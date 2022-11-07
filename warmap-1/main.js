@@ -541,3 +541,18 @@ function intMax(n, _max = -Infinity) {
 }
 
 console.log(intMax(123));
+
+
+
+//closeOn
+
+function closeOn (a , b) {
+    if (a === 8 || b === 8 ) {
+        return 8
+    }else{
+        return 0
+    }
+    
+}
+
+console.log(closeOn(12, 13));
