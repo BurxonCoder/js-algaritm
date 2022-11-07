@@ -1,3 +1,5 @@
+"use strict"
+
 // sleepIn 
 
 //3 Sposob
@@ -442,21 +444,21 @@ function loneTean (a , b) {
  //Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 // Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
  
-//  function string (){
-//     let string = "How can mirrors be real if our eyes aren't real";
-//     let splits  = string.split(" ");
-//     let stringItog = "";
+ function string (){
+    let string = "How can mirrors be real if our eyes aren't real";
+    let splits  = string.split(" ");
+    let stringItog = "";
     
-//     for (let i = 0 ; i <splits.length; i++){
-//         let str1 = splits [i];
-//         let str2 = str1.substring (0 , 1).toUpperCase();
-//         let Leftowers = str1.substring(1, str1.length)
-//         stringItog += str2 + Leftowers + " ";
-//         }
+    for (let i = 0 ; i <splits.length; i++){
+        let str1 = splits[i];
+        let str2 = str1.substring (0 , 1).toUpperCase();
+        let Leftowers = str1.substring(1, str1.length)
+        stringItog += str2 + Leftowers + " ";
+        }
         
-//         console.log(stringItog);
-//  }
-//  string();
+        console.log(stringItog);
+ }
+ string();
  
 //deDel
 
@@ -501,3 +503,33 @@ return false
 }
 
 console.log(mixStart("piz snacks"));
+
+
+//startOz
+
+// startOz("ozymandias") → "oz"
+// startOz("bzoo") → "z"
+// startOz("oxx") → "o"
+
+function  startOz(str) {
+if (str.slice(0,2) === ("oz")) {
+    return str.slice(0,2)
+    }else if (str.slice(0,1) === "o") {
+        return str.slice(0,1)
+    }else if (str.slice(1,2)=== "z") {
+        return str.slice(1,2)        
+    }
+}
+
+console.log(startOz("ozymandias"));
+
+
+//intMax
+
+// intMax(1, 2, 3) → 3
+// intMax(1, 3, 2) → 3
+// intMax(3, 2, 1) → 3
+
+
+
+
