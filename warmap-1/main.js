@@ -591,3 +591,16 @@ function  max1020 (a , b) {
     
 }
 console.log(max1020( 19 , 11));
+
+
+//stringE
+
+function stringE (str) {
+    if (str === "Hello" || str === "Heelle" ){
+        return true 
+}else{
+    return false
+}
+    }
+    
+    console.log(stringE("Heelele"));
