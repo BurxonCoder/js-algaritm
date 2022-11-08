@@ -556,3 +556,20 @@ function closeOn (a , b) {
 }
 
 console.log(closeOn(12, 13));
+
+// in3050 
+
+// in3050(30, 31) → true
+// in3050(30, 41) → false
+// in3050(40, 50) → true
+
+function  in3050(a , b) {
+    if (a > 30 && a < 40 || b > 30 && b < 40 || b ===  50) {
+        return true
+        
+    }else{
+        return false
+    }
+    
+}
+console.log(in3050(30 , 31));
