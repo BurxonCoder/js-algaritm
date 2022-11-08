@@ -604,3 +604,22 @@ function stringE (str) {
     }
     
     console.log(stringE("Heelele"));
+    
+    
+    //lastDigit
+
+// lastDigit(7, 17) → true
+// lastDigit(6, 17) → false
+// lastDigit(3, 113) → true
+    
+    function  lastDigit(a , b) {
+        if (a % 10 === b  % 10 ) {
+            return true
+            
+        }else{
+            return false
+        }
+    }
+    
+    console.log(lastDigit( 3 , 113 ));
+    
