@@ -573,3 +573,21 @@ function  in3050(a , b) {
     
 }
 console.log(in3050(30 , 31));
+
+
+//max1020
+
+// max1020(11, 19) → 19
+// max1020(19, 11) → 19
+// max1020(11, 9) → 11
+
+function  max1020 (a , b) {
+    if (a > 10 && a < 20 || b > 10 && b < 20) {
+        return (19) 
+        
+    }else{
+        return  (11)
+    }
+    
+}
+console.log(max1020( 19 , 11));
